@@ -1,0 +1,4 @@
+FROM 10.38.11.59:5000/rocker/rstudio:4.0.3
+
+RUN deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/
+apt-get install r-base -y 
